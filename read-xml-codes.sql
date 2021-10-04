@@ -26,12 +26,12 @@ FROM    @Xml X
 --SALES_DISPATCHES > DISPATCH > TRANSACTIONS > TRANSACTION (child node)
 
 
---DISPATCH ile TRANSACTION arasında bire çok başlantı vardır.
+--DISPATCH ile TRANSACTION arasında bire çok bağlantı vardır.
 --DISPATCH = İrsaliye
 --TRANSACTION = İrsaliye Detayları (Kalemleri)
 
 
---Örnek Çıktısı: (Datalar orjinali temsil etmeyece şekilde aynı benzerlikte değiştirilmiştir.)
+--Örnek Çıktısı: (Datalar orjinali temsil etmeyecek şekilde aynı benzerlikte değiştirilmiştir.)
 --TYPE NUMBER           DATE        DOC_NUMBER    ARP_CODE
 --99	DENEMETEST000234	24.09.2021	236570015306	9017897	0	sdfsdfsdfwerwerr	4.000	ADET	1	1	8
 --99	DENEMETEST000234	24.09.2021	236570015306	9017897	0	wer5345365344545	3.000	ADET	1	1	8
